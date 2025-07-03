@@ -20,9 +20,7 @@ def load_data():
     return pd.DataFrame(data)
 
 df = load_data()
-
-# One-Hot Encoding for categorical 'Location' 
-df_encoded = pd.get_dummies(df, columns=['Location'], drop_first=True)
+df_encoded = pd.get_dummies(df, columns=['Location'], drop_first=True)#  Load & Preprocess Data
 
 
 X = df_encoded.drop('Price', axis=1)
