@@ -23,13 +23,4 @@ This project implements a machine learning model to predict house prices based o
 
 
 
-## **Project Structure**  
-```
-house_price_prediction/  
-├── model/  
-│   └── house_price_model.joblib    # Saved model  
-├── data/  
-│   └── sample_data.csv             # Example dataset  
-└── scripts/  
-    └── train_predict.py            # Training and prediction script  
-```
+
